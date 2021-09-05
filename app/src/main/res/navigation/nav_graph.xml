@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.ralphsanders.daras.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_AlphabetFragment"
+            app:destination="@id/AlphabetFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PronounsFragment"
+            app:destination="@id/PronounsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PresentTenseVerbsFragment"
+            app:destination="@id/PresentTenseVerbsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PastTenseVerbsFragment"
+            app:destination="@id/PastTenseVerbsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AlphabetFragment"
+        android:name="com.ralphsanders.daras.AlphabetFragment"
+        android:label="@string/alphabet_fragment_label"
+        tools:layout="@layout/fragment_alphabet"/>
+    <fragment
+        android:id="@+id/PronounsFragment"
+        android:name="com.ralphsanders.daras.AlphabetFragment"
+        android:label="@string/pronouns_fragment_label"
+        tools:layout="@layout/fragment_pronouns"/>
+    <fragment
+        android:id="@+id/PresentTenseVerbsFragment"
+        android:name="com.ralphsanders.daras.PresentTenseVerbsFragment"
+        android:label="@string/present_tense_verbs_fragment_label"
+        tools:layout="@layout/fragment_present_tense_verbs"/>
+    <fragment
+        android:id="@+id/PastTenseVerbsFragment"
+        android:name="com.ralphsanders.daras.PastTenseVerbsFragment"
+        android:label="@string/past_tense_verbs_fragment_label"
+        tools:layout="@layout/fragment_past_tense_verbs"/>
+</navigation>
