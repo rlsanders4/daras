@@ -6,13 +6,710 @@
     android:layout_height="match_parent"
     tools:context=".AlphabetFragment">
 
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:text="Final"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="Medial"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="Initial"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="Isolated"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـا"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـا"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ا"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ا"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـب"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـبـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="بـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ب"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـت"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـتـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="تـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ت"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـث"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـثـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ثـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ث"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـج"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـجـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="جـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ج"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـح"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـحـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="حـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ح"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـخ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـخـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="خـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="خ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="ـد"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـد"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="د"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="د"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـذ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـذ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ذ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ذ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـر"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـر"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ر"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ر"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـز"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـز"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ز"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ز"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـس"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـسـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="سـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="س"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـش"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـشـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="شـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ش"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـص"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـصـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="صـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ص"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـض"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـضـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ضـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ض"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـط"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـطـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="طـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ط"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـظ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـظـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ظـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ظ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="ـع"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـعـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="عـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ع"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـغ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـغـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="غـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="غ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـف"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـفـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="فـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ف"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـق"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـقـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="قـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ق"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـك"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـكـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="كـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ك"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـل"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـلـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="لـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ل"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـم"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـمـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="مـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="م"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـن"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـنـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="نـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ن"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـه"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـهـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="هـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ه"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـو"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـو"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="و"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="و"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ـي"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="ـيـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+                <TextView
+                    android:text="يـ"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+
+                <TextView
+                    android:text="ي"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_width="0dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,7 +30,7 @@
         tools:layout="@layout/fragment_alphabet"/>
     <fragment
         android:id="@+id/PronounsFragment"
-        android:name="com.ralphsanders.daras.AlphabetFragment"
+        android:name="com.ralphsanders.daras.PronounsFragment"
         android:label="@string/pronouns_fragment_label"
         tools:layout="@layout/fragment_pronouns"/>
     <fragment
