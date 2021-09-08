@@ -2,7 +2,7 @@
     <string name="app_name">daras</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="home_fragment_label">daras</string>
+    <string name="home_fragment_label"></string>
     <string name="alphabet_fragment_label">Alphabet</string>
 
     <string name="alphabet">Alphabet</string>
@@ -12,6 +12,7 @@
     <string name="pronouns_fragment_label">Pronouns</string>
     <string name="present_tense_verbs_fragment_label">Present Tense Verbs</string>
     <string name="past_tense_verbs_fragment_label">Past Tense Verbs</string>
+    <string name="daras">daras</string>
 
 
 </resources>

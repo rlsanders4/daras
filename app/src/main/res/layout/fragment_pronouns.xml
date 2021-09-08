@@ -9,161 +9,195 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:stretchColumns="*">
+        android:layout_marginTop="20dp"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <TableRow>
+
             <TextView
-                android:text=""
-                android:gravity="center"
                 android:layout_width="0dp"
-                android:padding="5dp" />
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="Singular"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="Dual"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="Plural"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
         </TableRow>
+
         <TableRow>
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="start"
+                android:padding="5dp"
                 android:text="1st"
-                android:textSize="16sp"
-                android:gravity="start"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنَا"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
-                android:text="نَحْنُ"
-                android:textSize="40sp"
-                android:gravity="center"
                 android:layout_width="0dp"
-                android:padding="5dp" />
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="نَحْنُ"
+                android:textSize="40sp" />
+
             <TextView
-                android:text="نَحْنُ"
-                android:textSize="40sp"
-                android:gravity="center"
                 android:layout_width="0dp"
-                android:padding="5dp" />
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="نَحْنُ"
+                android:textSize="40sp" />
         </TableRow>
+
         <TableRow>
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="start"
+                android:padding="5dp"
                 android:text="2nd (m)"
-                android:textSize="16sp"
-                android:gravity="start"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنْتَ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنْتُمَا"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنْتُمْ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
         </TableRow>
+
         <TableRow>
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="start"
+                android:padding="5dp"
                 android:text="2nd (f)"
-                android:textSize="16sp"
-                android:gravity="start"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنْتِ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنْتُمَا"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="أَنْتُنَّ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
         </TableRow>
+
         <TableRow>
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="start"
+                android:padding="5dp"
                 android:text="3rd (m)"
-                android:textSize="16sp"
-                android:gravity="start"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="هُوَ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="هُمَا"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="هُمْ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
         </TableRow>
+
         <TableRow>
+
             <TextView
-                android:text="3rd (f)"
-                android:textSize="16sp"
+                android:layout_width="0dp"
                 android:gravity="start"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:padding="5dp"
+                android:text="3rd (f)"
+                android:textSize="16sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="هِيَ"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:padding="5dp"
                 android:text="هُمَا"
-                android:textSize="40sp"
-                android:gravity="center"
-                android:layout_width="0dp"
-                android:padding="5dp" />
+                android:textSize="40sp" />
+
             <TextView
-                android:text="هُنَّ"
-                android:textSize="40sp"
-                android:gravity="center"
                 android:layout_width="0dp"
-                android:padding="5dp" />
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="هُنَّ"
+                android:textSize="40sp" />
         </TableRow>
     </TableLayout>
 
