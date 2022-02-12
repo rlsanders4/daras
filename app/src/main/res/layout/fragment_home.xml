@@ -1,62 +1,331 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/daras"
-        android:textSize="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/title_daras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="@string/daras"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_alphabet"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/alphabet"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <TextView
+            android:id="@+id/header_alphabet"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="Alphabet"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_daras" />
 
-    <Button
-        android:id="@+id/button_pronouns"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/pronouns"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_alphabet" />
+        <View
+            android:id="@+id/underline_header_alphabet"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="?attr/colorOnPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_alphabet" />
 
-    <Button
-        android:id="@+id/button_present_tense_verbs"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/present_tense_verbs"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_pronouns" />
+        <Button
+            android:id="@+id/button_letter_forms"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Letter Forms"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/underline_header_alphabet" />
 
-    <Button
-        android:id="@+id/button_past_tense_verbs"
-        android:layout_width="348dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/past_tense_verbs"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_present_tense_verbs" />
+        <View
+            android:id="@+id/divider_letter_forms_and_letter_sounds"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_letter_forms" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/button_letter_sounds"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Letter Sounds"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_letter_forms_and_letter_sounds" />
+
+        <TextView
+            android:id="@+id/header_numbers"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Numbers"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_letter_sounds" />
+
+        <View
+            android:id="@+id/underline_header_numbers"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="?attr/colorOnPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_numbers" />
+
+        <Button
+            android:id="@+id/button_1_to_20"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="One to Twenty"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/underline_header_numbers" />
+
+        <View
+            android:id="@+id/divider_1_to_20_and_larger_numbers"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_1_to_20" />
+
+        <Button
+            android:id="@+id/button_larger_numbers"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Larger Numbers"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_1_to_20_and_larger_numbers" />
+
+        <View
+            android:id="@+id/divider_larger_numbers_and_ordinal_numbers"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_larger_numbers" />
+
+        <Button
+            android:id="@+id/button_ordinal_numbers"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Ordinal Numbers"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_larger_numbers_and_ordinal_numbers" />
+
+        <TextView
+            android:id="@+id/header_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Pronouns"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_ordinal_numbers" />
+
+        <View
+            android:id="@+id/underline_header_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="?attr/colorOnPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_pronouns" />
+
+        <Button
+            android:id="@+id/button_attached_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Attached Pronouns"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/underline_header_pronouns" />
+
+        <View
+            android:id="@+id/divider_attached_pronouns_and_demonstrative_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_attached_pronouns" />
+
+        <Button
+            android:id="@+id/button_demonstrative_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Demonstrative Pronouns"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_attached_pronouns_and_demonstrative_pronouns" />
+
+        <View
+            android:id="@+id/divider_demonstrative_pronouns_and_personal_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_demonstrative_pronouns" />
+
+        <Button
+            android:id="@+id/button_personal_pronouns"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Personal Pronouns"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_demonstrative_pronouns_and_personal_pronouns" />
+
+
+        <TextView
+            android:id="@+id/header_verbs"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Verbs"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_personal_pronouns" />
+
+        <View
+            android:id="@+id/underline_header_verbs"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="?attr/colorOnPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_verbs" />
+
+        <Button
+            android:id="@+id/button_past_tense_verbs"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/past_tense_verbs"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/underline_header_verbs" />
+
+        <View
+            android:id="@+id/divider_past_tense_verbs_and_present_tense_verbs"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_past_tense_verbs" />
+
+        <Button
+            android:id="@+id/button_present_tense_verbs"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/present_tense_verbs"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_past_tense_verbs_and_present_tense_verbs" />
+
+        <View
+            android:id="@+id/divider_present_tense_verbs_and_verb_forms"
+            android:layout_width="348dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_present_tense_verbs" />
+
+        <Button
+            android:id="@+id/button_verb_forms"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:background="?attr/colorPrimary"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Verb Forms"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider_present_tense_verbs_and_verb_forms" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@id/button_verb_forms"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+

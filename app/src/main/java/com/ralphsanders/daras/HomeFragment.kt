@@ -32,10 +32,13 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonAlphabet.setOnClickListener {
-            findNavController().navigate(R.id.action_HomeFragment_to_AlphabetFragment)
+        binding.buttonLetterForms.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_LetterFormsFragment)
         }
-        binding.buttonPronouns.setOnClickListener {
+        binding.buttonLetterSounds.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_LetterSoundsFragment)
+        }
+        binding.buttonPersonalPronouns.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_PronounsFragment)
         }
         binding.buttonPresentTenseVerbs.setOnClickListener {

@@ -3,8 +3,8 @@
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="home_fragment_label"></string>
-    <string name="alphabet_fragment_label">Alphabet</string>
-
+    <string name="letter_forms_fragment_label">Letter Forms</string>
+    <string name="letter_sounds_fragment_label">Letter Sounds</string>
     <string name="alphabet">Alphabet</string>
     <string name="pronouns">Pronouns</string>
     <string name="present_tense_verbs">Present Tense Verbs</string>

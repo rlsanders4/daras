@@ -11,8 +11,8 @@
         android:label="@string/home_fragment_label"
         tools:layout="@layout/fragment_home">
         <action
-            android:id="@+id/action_HomeFragment_to_AlphabetFragment"
-            app:destination="@id/AlphabetFragment" />
+            android:id="@+id/action_HomeFragment_to_LetterFormsFragment"
+            app:destination="@id/LetterFormsFragment" />
         <action
             android:id="@+id/action_HomeFragment_to_PronounsFragment"
             app:destination="@id/PronounsFragment" />
@@ -22,12 +22,20 @@
         <action
             android:id="@+id/action_HomeFragment_to_PastTenseVerbsFragment"
             app:destination="@id/PastTenseVerbsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_LetterSoundsFragment"
+            app:destination="@id/LetterSoundsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/AlphabetFragment"
-        android:name="com.ralphsanders.daras.AlphabetFragment"
-        android:label="@string/alphabet_fragment_label"
-        tools:layout="@layout/fragment_alphabet"/>
+        android:id="@+id/LetterFormsFragment"
+        android:name="com.ralphsanders.daras.LetterFormsFragment"
+        android:label="@string/letter_forms_fragment_label"
+        tools:layout="@layout/fragment_letter_forms"/>
+    <fragment
+        android:id="@+id/LetterSoundsFragment"
+        android:name="com.ralphsanders.daras.LetterSoundsFragment"
+        android:label="@string/letter_sounds_fragment_label"
+        tools:layout="@layout/fragment_letter_sounds"/>
     <fragment
         android:id="@+id/PronounsFragment"
         android:name="com.ralphsanders.daras.PronounsFragment"
