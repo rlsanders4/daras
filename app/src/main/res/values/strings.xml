@@ -13,6 +13,19 @@
     <string name="present_tense_verbs_fragment_label">Present Tense Verbs</string>
     <string name="past_tense_verbs_fragment_label">Past Tense Verbs</string>
     <string name="daras">daras</string>
+    <string name="multiples_of_ten">Multiples of Ten</string>
+    <string name="ordinal_numbers">Ordinal Numbers</string>
+    <string name="one_to_twenty">One to Twenty</string>
+    <string name="letter_sounds">Letter Sounds</string>
+    <string name="letter_forms">Letter Forms</string>
+    <string name="numbers">Numbers</string>
+    <string name="one_to_twenty_fragment_label">One to Twenty</string>
+    <string name="multiples_of_ten_fragment_label">Multiples of Ten</string>
+    <string name="ordinal_numbers_fragment_label">Ordinal Numbers</string>
+    <string name="personal_pronouns_fragment_label">Personal Pronouns</string>
+    <string name="attached_pronouns_fragment_label">Attached Pronouns</string>
+    <string name="verb_forms_fragment_label">Verb Forms</string>
+    <string name="verb_forms">Verb Forms</string>
 
 
 </resources>

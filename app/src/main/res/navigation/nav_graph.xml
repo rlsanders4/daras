@@ -14,8 +14,8 @@
             android:id="@+id/action_HomeFragment_to_LetterFormsFragment"
             app:destination="@id/LetterFormsFragment" />
         <action
-            android:id="@+id/action_HomeFragment_to_PronounsFragment"
-            app:destination="@id/PronounsFragment" />
+            android:id="@+id/action_HomeFragment_to_PersonalPronounsFragment"
+            app:destination="@id/PersonalPronounsFragment" />
         <action
             android:id="@+id/action_HomeFragment_to_PresentTenseVerbsFragment"
             app:destination="@id/PresentTenseVerbsFragment" />
@@ -25,6 +25,21 @@
         <action
             android:id="@+id/action_HomeFragment_to_LetterSoundsFragment"
             app:destination="@id/LetterSoundsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_OneToTwentyFragment"
+            app:destination="@id/OneToTwentyFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_MultiplesOfTenFragment"
+            app:destination="@id/MultiplesOfTenFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_OrdinalNumbersFragment"
+            app:destination="@id/OrdinalNumbersFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_AttachedPronounsFragment"
+            app:destination="@id/AttachedPronounsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_VerbFormsFragment"
+            app:destination="@id/VerbFormsFragment" />
     </fragment>
     <fragment
         android:id="@+id/LetterFormsFragment"
@@ -37,10 +52,30 @@
         android:label="@string/letter_sounds_fragment_label"
         tools:layout="@layout/fragment_letter_sounds"/>
     <fragment
-        android:id="@+id/PronounsFragment"
-        android:name="com.ralphsanders.daras.PronounsFragment"
-        android:label="@string/pronouns_fragment_label"
-        tools:layout="@layout/fragment_pronouns"/>
+        android:id="@+id/OneToTwentyFragment"
+        android:name="com.ralphsanders.daras.OneToTwentyFragment"
+        android:label="@string/one_to_twenty_fragment_label"
+        tools:layout="@layout/fragment_one_to_twenty"/>
+    <fragment
+        android:id="@+id/MultiplesOfTenFragment"
+        android:name="com.ralphsanders.daras.MultiplesOfTenFragment"
+        android:label="@string/multiples_of_ten_fragment_label"
+        tools:layout="@layout/fragment_multiples_of_ten"/>
+    <fragment
+        android:id="@+id/OrdinalNumbersFragment"
+        android:name="com.ralphsanders.daras.OrdinalNumbersFragment"
+        android:label="@string/ordinal_numbers_fragment_label"
+        tools:layout="@layout/fragment_ordinal_numbers"/>
+    <fragment
+        android:id="@+id/AttachedPronounsFragment"
+        android:name="com.ralphsanders.daras.AttachedPronounsFragment"
+        android:label="@string/attached_pronouns_fragment_label"
+        tools:layout="@layout/fragment_attached_pronouns"/>
+    <fragment
+        android:id="@+id/PersonalPronounsFragment"
+        android:name="com.ralphsanders.daras.PersonalPronounsFragment"
+        android:label="@string/personal_pronouns_fragment_label"
+        tools:layout="@layout/fragment_personal_pronouns"/>
     <fragment
         android:id="@+id/PresentTenseVerbsFragment"
         android:name="com.ralphsanders.daras.PresentTenseVerbsFragment"
@@ -51,4 +86,9 @@
         android:name="com.ralphsanders.daras.PastTenseVerbsFragment"
         android:label="@string/past_tense_verbs_fragment_label"
         tools:layout="@layout/fragment_past_tense_verbs"/>
+    <fragment
+        android:id="@+id/VerbFormsFragment"
+        android:name="com.ralphsanders.daras.VerbFormsFragment"
+        android:label="@string/verb_forms_fragment_label"
+        tools:layout="@layout/fragment_verb_forms"/>
 </navigation>

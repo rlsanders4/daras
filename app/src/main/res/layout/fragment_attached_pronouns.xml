@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PronounsFragment">
+    tools:context=".AttachedPronounsFragment">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -58,22 +58,22 @@
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنَا"
-                android:textSize="40sp" />
+                android:text="ـِي"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="نَحْنُ"
-                android:textSize="40sp" />
+                android:text="ـنَا"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="نَحْنُ"
-                android:textSize="40sp" />
+                android:text="ـنَا"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow>
@@ -89,22 +89,22 @@
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنْتَ"
-                android:textSize="40sp" />
+                android:text="ـكَ"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنْتُمَا"
-                android:textSize="40sp" />
+                android:text="ـكُمَا"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنْتُمْ"
-                android:textSize="40sp" />
+                android:text="ـكُمْ"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow>
@@ -120,22 +120,22 @@
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنْتِ"
-                android:textSize="40sp" />
+                android:text="ـكِ"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنْتُمَا"
-                android:textSize="40sp" />
+                android:text="ـكُمَا"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="أَنْتُنَّ"
-                android:textSize="40sp" />
+                android:text="ـكُنَّ"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow>
@@ -151,22 +151,22 @@
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="هُوَ"
-                android:textSize="40sp" />
+                android:text="ـهُ"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="هُمَا"
-                android:textSize="40sp" />
+                android:text="ـهُمَا"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="هُمْ"
-                android:textSize="40sp" />
+                android:text="ـهُمْ"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow>
@@ -182,22 +182,22 @@
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="هِيَ"
-                android:textSize="40sp" />
+                android:text="ـهَا"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="هُمَا"
-                android:textSize="40sp" />
+                android:text="ـهُمَا"
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="هُنَّ"
-                android:textSize="40sp" />
+                android:text="ـهُنَّ"
+                android:textSize="30sp" />
         </TableRow>
     </TableLayout>
 

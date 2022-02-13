@@ -38,14 +38,29 @@ class HomeFragment : Fragment() {
         binding.buttonLetterSounds.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_LetterSoundsFragment)
         }
+        binding.buttonOneToTwenty.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_OneToTwentyFragment)
+        }
+        binding.buttonMultiplesOfTen.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_MultiplesOfTenFragment)
+        }
+        binding.buttonOrdinalNumbers.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_OrdinalNumbersFragment)
+        }
         binding.buttonPersonalPronouns.setOnClickListener {
-            findNavController().navigate(R.id.action_HomeFragment_to_PronounsFragment)
+            findNavController().navigate(R.id.action_HomeFragment_to_PersonalPronounsFragment)
+        }
+        binding.buttonAttachedPronouns.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_AttachedPronounsFragment)
         }
         binding.buttonPresentTenseVerbs.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_PresentTenseVerbsFragment)
         }
         binding.buttonPastTenseVerbs.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_PastTenseVerbsFragment)
+        }
+        binding.buttonVerbForms.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_VerbFormsFragment)
         }
     }
 

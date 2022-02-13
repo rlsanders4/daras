@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".HomeFragment">
 
 
@@ -30,7 +30,7 @@
             android:layout_width="348dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:text="Alphabet"
+            android:text="@string/alphabet"
             android:textSize="26sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
             android:layout_marginTop="10dp"
             android:background="?attr/colorPrimary"
             android:foreground="?attr/selectableItemBackground"
-            android:text="Letter Forms"
+            android:text="@string/letter_forms"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +75,7 @@
             android:layout_height="57dp"
             android:background="?attr/colorPrimary"
             android:foreground="?attr/selectableItemBackground"
-            android:text="Letter Sounds"
+            android:text="@string/letter_sounds"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +87,7 @@
             android:layout_width="348dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Numbers"
+            android:text="@string/numbers"
             android:textSize="26sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -104,13 +104,13 @@
             app:layout_constraintTop_toBottomOf="@+id/header_numbers" />
 
         <Button
-            android:id="@+id/button_1_to_20"
+            android:id="@+id/button_one_to_twenty"
             android:layout_width="348dp"
             android:layout_height="57dp"
             android:layout_marginTop="10dp"
             android:background="?attr/colorPrimary"
             android:foreground="?attr/selectableItemBackground"
-            android:text="One to Twenty"
+            android:text="@string/one_to_twenty"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -118,35 +118,35 @@
             app:layout_constraintTop_toBottomOf="@+id/underline_header_numbers" />
 
         <View
-            android:id="@+id/divider_1_to_20_and_larger_numbers"
+            android:id="@+id/divider_one_to_twenty_and_multiples_of_ten"
             android:layout_width="348dp"
             android:layout_height="1dp"
             android:background="?attr/colorSecondary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_1_to_20" />
+            app:layout_constraintTop_toBottomOf="@+id/button_one_to_twenty" />
 
         <Button
-            android:id="@+id/button_larger_numbers"
+            android:id="@+id/button_multiples_of_ten"
             android:layout_width="348dp"
             android:layout_height="57dp"
             android:background="?attr/colorPrimary"
             android:foreground="?attr/selectableItemBackground"
-            android:text="Larger Numbers"
+            android:text="@string/multiples_of_ten"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider_1_to_20_and_larger_numbers" />
+            app:layout_constraintTop_toBottomOf="@+id/divider_one_to_twenty_and_multiples_of_ten" />
 
         <View
-            android:id="@+id/divider_larger_numbers_and_ordinal_numbers"
+            android:id="@+id/divider_multiples_of_ten_and_ordinal_numbers"
             android:layout_width="348dp"
             android:layout_height="1dp"
             android:background="?attr/colorSecondary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_larger_numbers" />
+            app:layout_constraintTop_toBottomOf="@+id/button_multiples_of_ten" />
 
         <Button
             android:id="@+id/button_ordinal_numbers"
@@ -154,12 +154,12 @@
             android:layout_height="57dp"
             android:background="?attr/colorPrimary"
             android:foreground="?attr/selectableItemBackground"
-            android:text="Ordinal Numbers"
+            android:text="@string/ordinal_numbers"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider_larger_numbers_and_ordinal_numbers" />
+            app:layout_constraintTop_toBottomOf="@+id/divider_multiples_of_ten_and_ordinal_numbers" />
 
         <TextView
             android:id="@+id/header_pronouns"
@@ -197,35 +197,13 @@
             app:layout_constraintTop_toBottomOf="@+id/underline_header_pronouns" />
 
         <View
-            android:id="@+id/divider_attached_pronouns_and_demonstrative_pronouns"
+            android:id="@+id/divider_attached_pronouns_and_personal_pronouns"
             android:layout_width="348dp"
             android:layout_height="1dp"
             android:background="?attr/colorSecondary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button_attached_pronouns" />
-
-        <Button
-            android:id="@+id/button_demonstrative_pronouns"
-            android:layout_width="348dp"
-            android:layout_height="57dp"
-            android:background="?attr/colorPrimary"
-            android:foreground="?attr/selectableItemBackground"
-            android:text="Demonstrative Pronouns"
-            android:textAllCaps="false"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider_attached_pronouns_and_demonstrative_pronouns" />
-
-        <View
-            android:id="@+id/divider_demonstrative_pronouns_and_personal_pronouns"
-            android:layout_width="348dp"
-            android:layout_height="1dp"
-            android:background="?attr/colorSecondary"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_demonstrative_pronouns" />
 
         <Button
             android:id="@+id/button_personal_pronouns"
@@ -238,7 +216,7 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider_demonstrative_pronouns_and_personal_pronouns" />
+            app:layout_constraintTop_toBottomOf="@+id/divider_attached_pronouns_and_personal_pronouns" />
 
 
         <TextView
@@ -293,6 +271,7 @@
             android:foreground="?attr/selectableItemBackground"
             android:text="@string/present_tense_verbs"
             android:textAllCaps="false"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider_past_tense_verbs_and_present_tense_verbs" />
@@ -312,7 +291,7 @@
             android:layout_height="57dp"
             android:background="?attr/colorPrimary"
             android:foreground="?attr/selectableItemBackground"
-            android:text="Verb Forms"
+            android:text="@string/verb_forms"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

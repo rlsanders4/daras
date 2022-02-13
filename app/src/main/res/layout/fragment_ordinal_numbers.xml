@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrdinalNumbersFragment">
+
+    <TextView
+        android:id="@+id/ordinal_feminine_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Feminine"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/ordinal_masculine_header"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ordinal_masculine_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Masculine"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/ordinal_blank_header"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ordinal_feminine_header"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ordinal_blank_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ordinal_masculine_header"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ordinal_feminine_header">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="أُولَى"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="أَوَّلٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="١"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="ثَانِيَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="ثَانٍ "
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٢"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="ثَالِثَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="ثَالِثٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٣"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="رَابِعَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="رَابِعٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٤"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="خَامِسَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="خَامِسٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٥"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="سَادِسَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="سَادِسٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٦"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="سَابِعَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="سَابِعٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٧"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="ثَامِنَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="ثَامِنٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٨"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="تَاسِعَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="تَاسِعٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٩"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="عَاشِرَةٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="عَاشِرٌ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="١٠"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
