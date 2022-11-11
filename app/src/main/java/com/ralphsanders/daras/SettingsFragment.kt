@@ -27,19 +27,20 @@ class SettingsFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         _binding = FragmentSettingsBinding.inflate(inflater, container, false)
         return binding.root
 
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+    override fun onStart() {
+        super.onStart()
         when (resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK) {
-             Configuration.UI_MODE_NIGHT_YES -> binding.switchTheme.isChecked = true
+            Configuration.UI_MODE_NIGHT_YES -> binding.switchTheme.isChecked = true
             Configuration.UI_MODE_NIGHT_NO -> binding.switchTheme.isChecked = false
         }
+
         binding.switchTheme.setOnCheckedChangeListener {_, checkedId ->
             when (checkedId) {
                 true -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)

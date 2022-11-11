@@ -97,9 +97,4 @@
         android:label="@string/settings_fragment_label"
         tools:layout="@layout/fragment_settings"/>
 
-    <activity
-        android:id="@+id/SettingsActivity"
-        android:label="Settings"
-        />
-
 </navigation>

@@ -33,13 +33,14 @@ class MainActivity : AppCompatActivity() {
 
         lastDayNightMode = AppCompatDelegate.getDefaultNightMode()
     }
-
+//Uncomment to add settings menu
+/*
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
-
+*/
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -53,16 +54,5 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        if (AppCompatDelegate.getDefaultNightMode() != lastDayNightMode) {
-            recreate()
-        }
-    }
-
-    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        super.onRestoreInstanceState(savedInstanceState)
     }
 }
