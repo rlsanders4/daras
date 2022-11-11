@@ -24,136 +24,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="صِفْر"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="۰"
-                    android:textSize="30sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="عَشَرَة"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="١٠"
-                    android:textSize="30sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="عِشْرُونَ"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="٢٠"
-                    android:textSize="30sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="ثَلَاثُونَ"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="٣٠"
-                    android:textSize="30sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="أَرْبَعُونَ"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="٤٠"
-                    android:textSize="30sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="خَمْسُونَ"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
-                    android:text="٥٠"
-                    android:textSize="30sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="سِتُّونَ"
                     android:textSize="20sp" />
                 <TextView
@@ -163,7 +34,14 @@
                     android:textSize="30sp" />
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="center" />
+                    android:gravity="right"
+                    android:text="صِفْر"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="۰"
+                    android:textSize="30sp" />
 
             </TableRow>
 
@@ -171,10 +49,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="سَبْعُونَ"
                     android:textSize="20sp" />
                 <TextView
@@ -184,7 +59,14 @@
                     android:textSize="30sp" />
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="center" />
+                    android:gravity="right"
+                    android:text="عَشَرَة"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="١٠"
+                    android:textSize="30sp" />
 
             </TableRow>
 
@@ -192,10 +74,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="ثَمَانُونَ"
                     android:textSize="20sp" />
                 <TextView
@@ -205,7 +84,14 @@
                     android:textSize="30sp" />
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="center" />
+                    android:gravity="right"
+                    android:text="عِشْرُونَ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٢٠"
+                    android:textSize="30sp" />
 
             </TableRow>
 
@@ -213,10 +99,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="تِسْعُونَ"
                     android:textSize="20sp" />
                 <TextView
@@ -226,7 +109,14 @@
                     android:textSize="30sp" />
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="center" />
+                    android:gravity="right"
+                    android:text="ثَلَاثُونَ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٣٠"
+                    android:textSize="30sp" />
 
             </TableRow>
 
@@ -234,10 +124,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="right" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:gravity="center"
+                    android:gravity="right"
                     android:text="مِئَة"
                     android:textSize="20sp" />
                 <TextView
@@ -247,7 +134,14 @@
                     android:textSize="30sp" />
                 <TextView
                     android:layout_width="0dp"
-                    android:gravity="center" />
+                    android:gravity="right"
+                    android:text="أَرْبَعُونَ"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:text="٤٠"
+                    android:textSize="30sp" />
 
             </TableRow>
 

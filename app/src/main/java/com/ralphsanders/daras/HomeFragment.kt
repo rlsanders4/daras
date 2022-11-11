@@ -62,6 +62,7 @@ class HomeFragment : Fragment() {
         binding.buttonVerbForms.setOnClickListener {
             findNavController().navigate(R.id.action_HomeFragment_to_VerbFormsFragment)
         }
+
     }
 
     override fun onDestroyView() {

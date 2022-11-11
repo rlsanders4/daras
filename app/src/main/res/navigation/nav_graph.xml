@@ -91,4 +91,15 @@
         android:name="com.ralphsanders.daras.VerbFormsFragment"
         android:label="@string/verb_forms_fragment_label"
         tools:layout="@layout/fragment_verb_forms"/>
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.ralphsanders.daras.SettingsFragment"
+        android:label="@string/settings_fragment_label"
+        tools:layout="@layout/fragment_settings"/>
+
+    <activity
+        android:id="@+id/SettingsActivity"
+        android:label="Settings"
+        />
+
 </navigation>

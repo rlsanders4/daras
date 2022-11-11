@@ -19,6 +19,7 @@
 
             <TextView
                 android:layout_width="0dp"
+                android:layout_gravity="center"
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="" />
@@ -43,13 +44,14 @@
                 android:padding="5dp"
                 android:text="Plural"
                 android:textSize="16sp" />
+
         </TableRow>
 
         <TableRow>
 
             <TextView
                 android:layout_width="0dp"
-                android:gravity="start"
+                android:layout_gravity="center"
                 android:padding="5dp"
                 android:text="1st"
                 android:textSize="16sp" />
@@ -74,13 +76,14 @@
                 android:padding="5dp"
                 android:text="ـنَا"
                 android:textSize="30sp" />
+
         </TableRow>
 
         <TableRow>
 
             <TextView
                 android:layout_width="0dp"
-                android:gravity="start"
+                android:layout_gravity="center"
                 android:padding="5dp"
                 android:text="2nd (m)"
                 android:textSize="16sp" />
@@ -105,13 +108,14 @@
                 android:padding="5dp"
                 android:text="ـكُمْ"
                 android:textSize="30sp" />
+
         </TableRow>
 
         <TableRow>
 
             <TextView
                 android:layout_width="0dp"
-                android:gravity="start"
+                android:layout_gravity="center"
                 android:padding="5dp"
                 android:text="2nd (f)"
                 android:textSize="16sp" />
@@ -136,13 +140,14 @@
                 android:padding="5dp"
                 android:text="ـكُنَّ"
                 android:textSize="30sp" />
+
         </TableRow>
 
         <TableRow>
 
             <TextView
                 android:layout_width="0dp"
-                android:gravity="start"
+                android:layout_gravity="center"
                 android:padding="5dp"
                 android:text="3rd (m)"
                 android:textSize="16sp" />
@@ -167,13 +172,14 @@
                 android:padding="5dp"
                 android:text="ـهُمْ"
                 android:textSize="30sp" />
+
         </TableRow>
 
         <TableRow>
 
             <TextView
                 android:layout_width="0dp"
-                android:gravity="start"
+                android:layout_gravity="center"
                 android:padding="5dp"
                 android:text="3rd (f)"
                 android:textSize="16sp" />
@@ -199,6 +205,7 @@
                 android:text="ـهُنَّ"
                 android:textSize="30sp" />
         </TableRow>
+
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
